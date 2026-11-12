@@ -26,6 +26,65 @@ const es: Content = {
     call911: "Llame al 911 si hay una convulsión, un desmayo o si no puede despertarlo.",
   },
 
+  dash: {
+    score: "Puntaje de síntomas de hoy",
+    outOf: "de {max}",
+    noScore: "Todavía no hay registro",
+    trend: "Desde el último registro",
+    up: "Subió {n}",
+    down: "Bajó {n}",
+    same: "Sin cambio",
+    firstOne: "El primer registro marca el punto de partida",
+    sleep: "Sueño anoche",
+    hours: "h",
+    checkins: "Registros",
+    checkinsNote: "Guardados solo en este teléfono",
+  },
+
+  path: {
+    title: "El camino de regreso",
+    caption: "Un camino típico. Avance solo cuando el paso actual no empeore mucho los síntomas. El entrenador atlético y el médico deciden los últimos pasos.",
+    here: "Usted está aquí",
+    locked: "Necesita autorización del médico",
+    steps: [
+      { name: "Descanso", note: "Esta noche y el día 1" },
+      { name: "Actividad ligera", note: "Rutinas tranquilas en casa" },
+      { name: "Regreso a la escuela", note: "Días cortos, pausas extra" },
+      { name: "Ejercicio ligero", note: "Caminar o bicicleta suave" },
+      { name: "Ejercicios del deporte", note: "Sin contacto" },
+      { name: "Práctica completa", note: "Con contacto" },
+      { name: "Día de juego", note: "De vuelta al juego" },
+    ],
+  },
+
+  heal: {
+    title: "Cómo sana una conmoción",
+    intro: "Entender lo que pasa por dentro ayuda a que el plan tenga sentido.",
+    nodes: [
+      { title: "El golpe", text: "Un golpe en la cabeza o el cuerpo sacude el cerebro dentro del cráneo y estira sus células." },
+      { title: "Falta de energía", text: "Las células estiradas necesitan energía extra para recuperarse, mientras el flujo de sangre baja por un tiempo. Hacer demasiado muy pronto trae síntomas." },
+      { title: "Descansar y moverse", text: "Uno o dos días de descanso y luego actividad suave como caminar. El ejercicio ligero ayuda al flujo de sangre y a la recuperación." },
+      { title: "Reconectar y volver", text: "El cerebro se adapta y fortalece sus conexiones. Esto se llama neuroplasticidad. La mayoría de los adolescentes se sienten mejor en unas 4 semanas." },
+    ],
+  },
+
+  body: {
+    title: "Dónde aparecen los síntomas",
+    intro: "Califique cada síntoma abajo. El mapa se ilumina mientras avanza. Toque un punto para saber por qué pasa.",
+    symptomWhy: [
+      "El dolor de cabeza es el síntoma más común. El cerebro usa energía extra para sanar.",
+      "El cerebro y el oído interno trabajan juntos para el equilibrio. Después de una conmoción ese trabajo en equipo puede fallar por un tiempo.",
+      "El dolor de cabeza y el mareo pueden revolver el estómago. Comidas pequeñas y sencillas y agua ayudan.",
+      "Un cerebro que está sanando filtra peor la luz, así que las pantallas y el sol pueden molestar más.",
+      "Lo mismo pasa con el sonido. Los lugares tranquilos ayudan, y esto suele pasar con la recuperación.",
+      "Pensar usa energía extra mientras el cerebro sana. Trabajar en bloques cortos con pausas ayuda.",
+      "Sentirse lento o confundido es común y suele mejorar a medida que el cerebro se recupera.",
+      "El cerebro también controla las emociones. Los cambios de ánimo son un síntoma, no un defecto de carácter.",
+    ],
+  },
+
+  trend: { title: "Tendencia de síntomas", empty: "Su tendencia aparece después del primer registro.", day: "Día" },
+
   plan: {
     title: "Su plan para los primeros días",
     intro: "El cerebro sana mejor con un descanso corto y luego un regreso lento a la vida normal. Avance al ritmo que permitan los síntomas.",

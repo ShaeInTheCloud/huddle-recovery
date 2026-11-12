@@ -27,6 +27,65 @@ const en: Content = {
     call911: "Call 911 for a seizure, passing out, or if you cannot wake them.",
   },
 
+  dash: {
+    score: "Today's symptom score",
+    outOf: "of {max}",
+    noScore: "No check-in yet",
+    trend: "Since last check-in",
+    up: "Up {n}",
+    down: "Down {n}",
+    same: "No change",
+    firstOne: "First check-in sets the starting point",
+    sleep: "Sleep last night",
+    hours: "hrs",
+    checkins: "Check-ins",
+    checkinsNote: "Stored on this phone only",
+  },
+
+  path: {
+    title: "The road back",
+    caption: "A typical path. Move on only when the current step does not make symptoms much worse. The athletic trainer and doctor decide the later steps.",
+    here: "You are here",
+    locked: "Needs doctor clearance",
+    steps: [
+      { name: "Rest", note: "Tonight and day 1" },
+      { name: "Light activity", note: "Calm routines at home" },
+      { name: "Back to school", note: "Short days, extra breaks" },
+      { name: "Light exercise", note: "Easy walk or bike" },
+      { name: "Sport drills", note: "No contact" },
+      { name: "Full practice", note: "Contact allowed" },
+      { name: "Game day", note: "Back in the game" },
+    ],
+  },
+
+  heal: {
+    title: "How a concussion heals",
+    intro: "Knowing what is happening inside makes the plan make sense.",
+    nodes: [
+      { title: "The hit", text: "A blow to the head or body shakes the brain inside the skull and stretches its cells." },
+      { title: "Energy crunch", text: "Stretched cells need extra fuel to reset, while blood flow is lower for a while. Doing too much too soon brings symptoms on." },
+      { title: "Rest, then move", text: "A day or two of rest, then gentle activity like walking. Light exercise helps blood flow and recovery." },
+      { title: "Rewire and return", text: "The brain adapts and strengthens its connections. This is neuroplasticity. Most teens feel better within about 4 weeks." },
+    ],
+  },
+
+  body: {
+    title: "Where symptoms show up",
+    intro: "Rate each symptom below. The map lights up as you go. Tap a spot to learn why it happens.",
+    symptomWhy: [
+      "Headaches are the most common symptom. The brain is using extra energy to heal.",
+      "The brain and inner ear work together for balance. After a concussion that teamwork can be off for a while.",
+      "Headaches and dizziness can upset the stomach. Small, plain meals and water help.",
+      "A healing brain filters light less well, so bright screens and sun can feel too strong.",
+      "The same goes for sound. Quiet rooms help, and this usually fades with recovery.",
+      "Thinking takes extra energy while the brain heals. Short work blocks with breaks help.",
+      "Feeling slow or in a fog is common and usually lifts as the brain recovers.",
+      "The brain also controls emotions. Mood swings are a symptom, not a character flaw.",
+    ],
+  },
+
+  trend: { title: "Symptom trend", empty: "Your trend appears after the first check-in.", day: "Day" },
+
   plan: {
     title: "Your plan for the first few days",
     intro: "The brain heals best with a short rest, then a slow return to normal life. Go at the pace symptoms allow.",

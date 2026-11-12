@@ -13,6 +13,35 @@ export type Content = {
 
   er: { title: string; intro: string; signs: string[]; call911: string };
 
+  dash: {
+    score: string;
+    outOf: string; // "of {max}"
+    noScore: string;
+    trend: string;
+    up: string;
+    down: string;
+    same: string;
+    firstOne: string;
+    sleep: string;
+    hours: string;
+    checkins: string;
+    checkinsNote: string;
+  };
+
+  path: {
+    title: string;
+    caption: string;
+    here: string;
+    locked: string;
+    steps: { name: string; note: string }[]; // 7 steps; the last two need a doctor
+  };
+
+  heal: { title: string; intro: string; nodes: { title: string; text: string }[] }; // 4 nodes
+
+  body: { title: string; intro: string; symptomWhy: string[] }; // one per symptom
+
+  trend: { title: string; empty: string; day: string };
+
   plan: { title: string; intro: string; phases: Phase[]; doLabel: string; avoidLabel: string };
 
   checkin: {
